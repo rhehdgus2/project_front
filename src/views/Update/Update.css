@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+.inner3 {
+    max-width: calc(1200px + 10%);
+    margin: auto;
+    padding: 0 5%;
+}
+.member3 input:not([type=checkbox]), .member3 select {
+    height: 45px;
+    width: 100%;
+    font-size: 15px;
+    border: none;
+    border-bottom: solid 1px #808080;
+}
+
+
+.updatetitle3 {
+    display: block;
+    font-size: 30px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 500;
+}
+
+.join3 .wrapper3 {
+    display: flex;
+    justify-content: space-between;
+    height: 800px;
+}
+.join3 .wrapper3 > div {
+    width: calc(50% - 60px);
+    display: flex;
+    flex-direction: column;
+}
+.member3 .form3 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.member3 .input_box3 {
+    position: relative;
+    margin-top: 45px;
+}
+
+.searchline3{
+    display: flex;
+}
+.term3 {
+    padding-top: 20px;
+}
+
+.member3 .form button:disabled {
+    color: #898989;
+}
+#btn-submit3 {
+    width: 100%;
+    height: 60px;
+    background: black;
+    font-size: 18px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.member3 .email_box3 input, .member3 .email_box3 select {
+    width: 30%;
+    flex-grow: 1;
+}
+.member3 .input_box3 {
+    position: relative;
+    margin-top: 45px;
+}
+.leave3 {
+    color: #8A8A8A;
+    font-size: 15px;
+    text-decoration: underline;
+    margin-top: 25px;
+}
+.btn_post_search3{
+    width: 150px!important;
+    float: right;
+    cursor: pointer;
+    height: 45px;
+    font-size: 12px;
+    background: black;
+    color: white;
+}
+.email_box3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mail_second3 {
+    margin-right: 10px;
+}
+.input_box3_id {
+    margin-top: 42px;
+}
+.input_box3_2 {
+    margin-top: 3px;
+}
+.email_box4 {
+    padding-right: 4px;
+}
+.input-box3-head {
+    margin-top: 45px;
+    display: block;
+}
+.input_box5 {
+    margin-top: 76px;
+}

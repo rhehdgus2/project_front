@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+  
+  ul,
+  li,
+  dl,
+  dt {
+    list-style: none;
+    margin: 5px 0px
+  }
+  
+  a {
+    color: rgb(192, 198, 199);
+  }
+  
+  #wrap2 {
+    width: 100%;
+    height: 1066px;
+    
+  }
+  
+  
+  #section {
+    position: relative;
+    top: -160px;
+    width: 150%;
+    height: 1216px;
+    z-index: 9000;
+    background: url(/src/assest/image/img01.jpg) center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  #section .text {
+    position: absolute;
+    top: 50%;
+  }

@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+.QnaBoard {
+    height: 1100px;
+}
+.qna-con {
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.qna-board-box {
+    width: 1000px;
+}
+.board-head-box {
+    width: 100%;
+}
+.qna-board-head {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+}
+.board-table-box {
+    width: 100%;
+}
+
+
+.board-table-box td {
+    width: 200px;
+    height: 70px;
+    vertical-align: middle;
+    text-align: center;
+    border-bottom: 1px solid gray
+}
+
+.board-tr {
+    cursor: pointer;
+}
+
+.board-name {
+    width: 400px;
+}
+
+.board-setting {
+    background-color: #e6e6e6;
+}
+.qna-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    margin-top: 40px;
+    width: 100px;
+    height: 60px;
+    border-radius: 6px;
+    background-color: black;
+    color: white;
+}
+.pagingcount {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.selected {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.select-box {
+    margin-left: 10px;
+    width: 220px;
+    height: 40px;
+    border: 1px solid #9e9e9e;
+}
+.select-box:focus {
+    border: 1px solid #2f63ff;
+    box-shadow: 0px 0px 2px 1px #2f63ff;
+}
+.select-btn {
+    margin-left: 10px;
+    width: 80px;
+    height: 40px;
+    background-color: black;
+    color: white;
+}
+

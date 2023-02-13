@@ -1,0 +1,90 @@
+.create-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 100px;
+}
+.create-body {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 100px;
+    width: 1000px;
+}
+.category-select {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+.create-input1 {
+    width: 400px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.create-input2 {
+    width: 400px;
+    height: 60px;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 22px;
+    line-height: -10px;
+}
+.create-input-box {
+    margin-bottom: 20px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+.create-textarea {
+    margin-top: 35px;
+    width: 400px;
+    resize: none;
+}
+.create-input-box2 {
+    margin-bottom: 20px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+.create-btn-box {
+    display: flex;
+    align-items: center;
+    float: right;
+}
+.create-btn {
+    margin-left: 20px;
+    border-radius: 8px;
+    width: 140px;
+    height: 60px;
+    background-color: white;
+}
+.fileUp-btn {
+    background-color: white;
+    font-weight: 600;
+    height: 34px;
+    margin-left: 10px;
+}
+.fileUp-btn:focus {
+    background-color: #8e8e8e;
+}
+.img-boxs {
+    font-size: 18px;
+    font-weight: 600;
+    border-bottom: 1px solid black;
+}
+.xmark-btn {
+    font-size: 18px;
+    margin-top: 3px;
+    float: right;
+    border: none;
+    background-color: white;
+}

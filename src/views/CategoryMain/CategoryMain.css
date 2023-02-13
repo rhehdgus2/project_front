@@ -1,0 +1,71 @@
+a {
+    text-decoration: none;
+}
+#sec01 {
+    margin: 200px 0;
+    width: 100%;
+    display: block;
+    float: left;
+    justify-content: space-around;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#sec01 .container .img01{
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 30%;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-image: url(/src/assest/image/perfumejpg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#sec01 .container .img02{
+    display: inline-block;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 30%;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-image: url(/src/assest/image/woman_main.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#sec01 .container .img03{
+    display: inline-block;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 30%;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-image: url(/src/assest/image/diffusermain.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.text00{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    width: 100px;
+    height: 25px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #808080;
+}

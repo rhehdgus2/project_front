@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+.inner {
+    max-width: calc(1200px + 10%);
+    margin: auto;
+    padding: 0 5%;
+    padding-bottom: 150px;
+}
+.member input:not([type=checkbox]), .member select {
+    height: 45px;
+    width: 100%;
+    font-size: 15px;
+    border: none;
+    border-bottom: solid 1px #808080;
+}
+input[type="hidden" i] {
+    appearance: none;
+    background-color: initial;
+    cursor: default;
+    display: none !important;
+    padding: initial;
+    border: initial;
+}
+input {
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+    margin: 0em;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+h1 {
+    display: block;
+    font-size: 28px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.join .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.join .wrapper > div {
+    width: calc(50% - 60px);
+    /* height: 650px; */
+    display: flex;
+    flex-direction: column;
+}
+.member .form {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.member .input_box {
+    position: relative;
+    margin-top: 45px;
+}
+.chek {
+    margin-right: 5px;
+}
+
+.term2 {
+    width: 100%;
+    display: block;
+    float: left;
+    padding-top: 20px;
+}
+element.style {
+    margin-top: 102px;
+}
+.member .form button:disabled {
+    color: #898989;
+}
+.member button, .mypage button {
+    width: 100%;
+    height: 60px;
+    background: black;
+    font-size: 18px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button {
+    margin-top: 102px;
+    appearance: auto;
+    writing-mode: horizontal-tb !important;
+    
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: buttonface;
+    margin: 0em;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+}
+.member .email_box input, .member .email_box select {
+    width: 30%;
+    flex-grow: 1;
+}
+.email_box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#pwcheck {
+    margin-bottom: 40px;
+}
+.items {
+    margin: 0 5px;
+}
+.mail_second {
+    margin-right: 10px;
+}
+
+.label-box {
+    width: 100%;
+    height: 20px;
+}
+label {
+    float: left;
+}

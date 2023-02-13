@@ -1,0 +1,429 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+.Shopping {
+    height: 2000px;
+    color: black;
+}
+
+#container {
+    margin-top: -1px;
+}
+
+#contents {
+    padding-top: 60px;
+    min-height: 400px;
+    padding: 0 0 80px 0;
+}
+
+.sub_content {
+    padding: 0;
+    width: 100%;
+}
+
+.cart {
+    background: white;
+}
+
+.outer {
+    width: 100%;
+}
+
+.content_box {
+    float: left;
+    width: 100%;
+}
+
+.cart h1 {
+
+    font-size: 30px;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+b {
+    font-weight: 500;
+}
+
+.cart .inner {
+    text-align: center;
+}
+
+.inner {
+    max-width: calc(1200px + 10%);
+    margin: auto;
+    padding: 0 5%;
+}
+
+.cart_cont_list {
+    margin: 0;
+}
+
+.cart table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.cart .list th {
+    width: 120px;
+    font-size: 15px;
+    border-bottom: solid 1px black;
+    line-height: 60px;
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+}
+
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+
+.cart .list td:nth-child(1) {
+    padding: 15px 10px;
+}
+
+.cart .list tbody td {
+    border-bottom: solid 1px #C7C7C7;
+    text-align: center;
+}
+.cart .list tbody tr {
+    height: 70px;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+.cart .list td:nth-child(1) img {
+    width: 90px;
+    height: 90px;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+a {
+    cursor: pointer;
+}
+
+.cart .list td:nth-child(2) {
+    text-align: left;
+    padding: 20px 0;
+}
+
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+
+.cart .list td:nth-child(2) .name {
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+a {
+    cursor: pointer;
+}
+
+.cart .list td:nth-child(2) .price {
+    font-size: 15px;
+}
+
+.cart .list td:nth-child(2) p {
+    margin-top: 6px;
+}
+class
+.cart .list td:nth-child(3) img {
+    width: 30px;
+    height: 30px;
+    padding: 3px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.cart .list td:nth-child(3) span {
+    display: inline-block;
+    width: 50px;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.count {
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 17px;
+}
+
+.cart .list .td_price {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.cart .list tbody td {
+    border-bottom: solid 1px #C7C7C7;
+    text-align: center;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.cart .savings {
+    display: inline-block;
+    padding: 0 34px;
+    margin-top: 60px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 45px;
+    color: black;
+    background: #F4F4F4;
+    border-radius: 40px;
+}
+
+.cart .sum {
+    margin-top: 90px;
+    border: 1px solid black;
+    border-left: none;
+    border-right: none;
+}
+
+.price_sum {
+    padding: 0;
+}
+
+.price_sum_cont {
+    display: block;
+    float: none;
+    text-align: right;
+}
+
+.price_sum_cont .price_sum_list {
+    position: relative;
+}
+
+.price_sum_list {
+    display: table;
+    width: 100%;
+}
+
+.price_sum_cont .price_sum_list dl {
+    display: table-cell;
+    padding: 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+.cart .sum dt {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #c7c7c7;
+    font-size: 18px;
+    font-weight: 500;
+    height: 60px;
+}
+
+.price_sum_cont .price_sum_list dt {}
+
+dt,
+dd,
+dl {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.cart .sum dd {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    font-weight: bold;
+    height: 90px;
+    color: inherit;
+    text-align: center;
+}
+
+
+.price_sum_cont .price_sum_list dd strong {
+    font-size: inherit;
+    font-weight: inherit;
+    color: inherit;
+}
+
+.cart .sum img {
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+}
+
+.price_sum_cont .price_sum_list .price_total {
+    padding-right: 0;
+}
+
+.btn_order_box {
+    padding: 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+.cart .button_box {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    margin-bottom: 200px;
+}
+
+.cart .buy {
+    width: 420px;
+    height: 60px;
+    font-size: 18px;
+    color: white;
+    background: black;
+    border: none;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.cart .button_box>* {
+    margin-right: 12px !important;
+}
+
+.btn_order_whole_buy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 190px;
+}
+
+.cart .remove {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+
+.cart .list th:nth-child(2) {
+    width: auto;
+}
+
+.td_test {
+    display: flex;
+    height: 121px;
+}
+.h1-text {
+    color: black;
+}
+.count_minus {
+    cursor: pointer;
+}
+.count_plus {
+    cursor: pointer;
+}
+.ft_bottom {
+    margin: 0;
+}
+.shop-form{
+    height: 500px;
+    overflow: auto;
+}
+.btn_order_whole_buy {
+    z-index: 9999;
+}
+
+.scroll2 th {
+    font-size: 15px;
+    height: 100px;
+    border-bottom: solid 1px black;
+}
+.list2-product-img{
+
+    width: 120px;
+}
+
+.list2-product-address{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+.list2-product-number{
+    
+    width: 300px;
+}
+.list2-product-count{
+    width: 120px;
+}
+.list2-product-price{
+    width: 120px;
+}
+.list2-product-date{
+    width: 120px;
+}
+.list2-tboddy {
+    border-bottom: 1px solid #8e8e8e;
+}
+.list2-tboddy td{
+    font-weight: 600;
+    height: 120px;
+}
+.pay-img {
+    width: 90px;
+    height: 90px;
+}
+.pay-thead {
+    margin: 300px;
+}
+.shop-form2{
+    height: 500px;
+    overflow: auto;
+}
+.scroll2 {
+    height: 100px;
+}
+.scroll2 td {
+    vertical-align: middle;
+    border-bottom: 1px solid #8e8e8e;
+}
+.cart-productname {
+    color: black;
+}

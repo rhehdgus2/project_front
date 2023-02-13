@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+.OrderCheck {
+    height: 600px;
+    margin-bottom: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container7{
+    width: 35%;
+    height: 300px;
+    border: 3px solid #e6e6e6;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon7{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+}
+.CircleCheck{
+    
+    font-size: 40px;
+    color: #808080;
+}
+
+.home-container7 {
+    display: flex;
+    justify-content: center;
+}
+
+.gohome7{
+    width: 30%;
+    border: 1px solid #808080;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    color: #808080;
+    
+}

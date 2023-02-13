@@ -1,0 +1,76 @@
+.QnaDetail {
+    text-align: center;
+}
+.Detail-box {
+    margin-bottom: 200px;
+}
+.tit-head {
+    margin: 60px 0 50px;
+    /* border-bottom: 1px solid #8e8e8e; */
+}
+.tit {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0 0 20px;
+}
+.table-boxs {
+    margin: auto;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p-text {
+    margin-left: 20px;
+    width: 500px;
+    height: 200px;
+    border: 1px solid #8e8e8e;
+    border-radius: 8px;
+    font-size: 16px;
+    text-align: left;
+}
+.input-boxs {
+    border: none;
+    border-bottom: 1px solid #8e8e8e;
+    width: 500px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    float: left;
+    font-size: 20px;
+}
+.tables-th {
+    position: relative;
+    top: -20px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.qna-btns-box {
+    margin-left: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.qna-btns {
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 500;
+    width: 180px;
+    height: 70px;
+    background-color: white;
+    border: 2px solid #8e8e8e;
+    border-radius: 8px;
+    color: black;
+}
+.qna-btns .back {
+    padding-left: 50px;
+}
+.qna-info {
+    top: 0;
+}
+.qna-answer {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

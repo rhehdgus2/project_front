@@ -1,0 +1,139 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+  
+  ul,
+  li,
+  dl,
+  dt {
+    list-style: none;
+    margin: 5px 0px
+  }
+  
+  a {
+    color: rgb(192, 198, 199);
+  }
+  
+  #wrap {
+    width: 100%;
+  }
+  
+  #header {
+    height: 100px;
+  }
+  #header .mainimg {
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 100px;
+  
+    background-size: 100%;
+  }
+  
+  #header .logo {
+    position: absolute;
+    z-index: 9999;
+    top: 9px;
+    left: 30px;
+  }
+  
+  .image01 {
+    padding-top: 30px;
+    width: 50%;
+    height: 30%;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+  }
+  
+  #header .top_nav {
+    margin-right: 130px;
+    float: right;
+    position: absolute;
+    top: 40px;
+    right: -10px;
+    height: 40px;
+    font-weight: 600;
+    color: #808080;
+  }
+  #header .top_nav>li:nth-child(4){
+    margin-left: -10px;
+  }
+  #header .top_nav a {
+    font-size: 12px;
+    font-weight: 700;
+  }
+  
+  #header .top_nav>li {
+    float: left;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+  }
+  
+  #header .top_nav>li:hover {
+    overflow: visible;
+  }
+  
+  #header .top_nav>li:hover>a {
+    color: red;
+  }
+  
+  #header .top_nav .sub {
+    opacity: 0;
+  }
+  
+  #header .top_nav .sub li:hover>a {
+    color: red;
+  }
+  
+  #header .top_nav>li:hover .sub {
+    opacity: 1;
+  }
+  
+  #header .icon {
+    width: 80px;
+    float: right;
+    position: absolute;
+    top: 41px;
+    right: 55px;
+    letter-spacing: 4px;
+    
+  }
+  .icon-ul2{
+    width: 80px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  #header .icon .Cart {
+    
+    color: #808080;
+    
+  }
+  
+  #header .icon .User {
+    color: #808080;
+  }
+  #header .icon .lock-open {
+    color: #808080;
+  }
+  
+  #header .icon li {
+    float: left;
+    margin-left: 20px;
+  }
+  
+  #header .icon li:hover>a {
+    color: red;
+  }
+  .countcontainer{
+    position: absolute;
+    top: -5px;
+    left: 76px;
+
+    color: #808080;
+  }

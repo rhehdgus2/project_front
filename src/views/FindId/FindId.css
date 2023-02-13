@@ -1,0 +1,73 @@
+
+
+.containers {
+    width: 100%;
+    margin: 20px 0 200px;
+}
+
+.headline {
+    width: 100% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    font-weight: 100;
+}
+.find-id {
+    font-size: 40px;
+}
+
+.form-container {
+    /* margin: auto; */
+    /* width: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.find-password-by-id {
+    width: 100%;
+    font-size: 25px;
+    font-weight: 200;
+}
+.holder{
+    font-size: 25px;
+    font-weight: 200;
+}
+.email {
+    font-size: 25px;
+    font-weight: 200;
+}
+.email-input {
+    width: 500px;
+    margin: 10px 0px 50px;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.con-box {
+    width: 500px;
+}
+
+.lostInput {
+    width: 500px;
+    height: 40px;
+    margin: 10px 0px 50px;
+    border: none;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.sp-btn {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    height: 50px;
+    align-items: center;
+}
+.sp-sub-submit{
+    width: 100%;
+}
